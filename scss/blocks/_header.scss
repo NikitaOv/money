@@ -1,0 +1,19 @@
+.header {
+    min-height: 134px;
+    background-color: rgba(19, 19, 19, 15);
+    padding: 31px 0px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    &__link {
+        list-style-type: none;
+        margin: 0 25px;
+    }
+}

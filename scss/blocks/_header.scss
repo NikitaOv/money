@@ -26,3 +26,23 @@
         }
     }
 }
+
+.cart-link {
+    display: none;
+}
+
+.gamburger {
+    display: none;
+
+    border: none;
+    background: transparent;
+
+    width: 70px;
+    height: 70px;
+    &__stick {
+        height: 4px;
+        width: 100%;
+        background: $white;
+        margin-top: 10px;
+    }
+}

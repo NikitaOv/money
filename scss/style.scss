@@ -9,4 +9,9 @@
     color: $white;
 }
 
+a {
+    text-decoration: none;
+}
+
 @import 'blocks/header';
+@import 'blocks/main'

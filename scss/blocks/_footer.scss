@@ -1,0 +1,13 @@
+.footer {
+    min-height: 200px;
+    background: $footer-bg-color;
+    @include inner-items-center;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        font-size: 18px;
+        @include inner-items-center;
+    }
+}

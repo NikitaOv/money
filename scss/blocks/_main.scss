@@ -1,5 +1,19 @@
 .main {
-    background:0;
+    background: center center/cover no-repeat;
     min-height: 860px;
     padding: 274px 0 182px;
+    &__title {
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 78px;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 44px;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
 }
+

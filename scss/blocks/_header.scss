@@ -4,6 +4,10 @@
     background-color: rgba(19, 19, 19, 0.15);
     padding: 31px 0px;
     position: absolute;
+    &_white {
+        background: $white;
+        position: static;
+    }
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -17,5 +21,8 @@
     &__link {
         list-style-type: none;
         margin: 0 25px;
+        &_black {
+            color: $black;
+        }
     }
 }

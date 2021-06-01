@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import 'general/variables';
+@import 'general/mixins';
 
 * {
     margin: 0;
@@ -14,8 +14,17 @@ a {
     text-decoration: none;
 }
 
-@import 'general';
+@import 'general/general';
 @import 'blocks/header';
 @import 'blocks/main';
 @import 'blocks/catalog';
 @import 'blocks/footer';
+
+//delivery page
+@import 'blocks/delivery/delivery';
+
+//cart page
+@import 'blocks/cart/cart';
+
+//about page
+@import 'blocks/about/about';

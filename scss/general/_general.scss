@@ -3,6 +3,7 @@
     width: 400px;
     height: 80px;
     font-size: 36px;
+    font-weight: 600;
     background: $main-color;
     border-radius: 20px;
     color: $white;
@@ -23,6 +24,12 @@
 
         font-weight: 600;
         font-size: 18px;
+    }
+    &_cart {
+        width: 500px;
+        height: 60px;
+        font-size: 24px;
+        margin: 50px auto 0;
     }
 }
 

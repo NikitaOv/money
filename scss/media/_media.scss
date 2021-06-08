@@ -10,22 +10,28 @@
     //cart page
     .order {
         width: 100%;
+        &__img-wrapper {
+            display: none;
+        }
     }
 
     //all pages, header block
     .header__links {
         position: absolute;
-        right: 0;
+        left: -400px;
         top: 0;
 
         width: 400px;
         height: 1200px;
         background: rgba(19, 19, 19, 0.8);
 
-        display: none;
+        display: block;
         flex-direction: column;
         padding: 200px 20px 0;
+
+        transition: 0.5s all;
         &_active {
+            left: 0;
             display: flex;
         }
     }
@@ -47,10 +53,52 @@
     .gamburger {
         display: block;
     }
+
+    //delivery page 
+    .delivery__title {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    //cart page
+    .btn_cart {
+        width: 400px;
+    }
+
+    //header
+    .header__links {
+        width: 300px;
+    }
+
+    //delivery page 
+    .delivery__title {
+        font-size: 70px;
+    }
+
+    //about page
+    .about-block__img {
+        min-width: 90%;
+        min-height: 0;
+    }
 }
 
 @media (max-width: 426px) {
+    //main page
     .btn_main {
-        width: 350px;
+        width: 300px;
+    }
+
+    //cart page
+    .btn_cart {
+        width: 300px;
+    }
+    .trash-icon {
+        margin: 0;
+    }
+
+    //delivery page 
+    .delivery__title {
+        font-size: 50px;
     }
 }

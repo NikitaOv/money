@@ -40,9 +40,25 @@
     width: 70px;
     height: 70px;
     &__stick {
+        display: block;
         height: 4px;
         width: 100%;
         background: $white;
         margin-top: 10px;
+        transition: 0.5s all;
+        &_white {
+            background: $black;
+        }
+        &_close {
+            &:nth-child(1) {
+                transform: rotate(45deg) translate(9px);
+            }
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
+                transform: rotate(-45deg) translate(9px);
+            }
+        }
     }
 }
